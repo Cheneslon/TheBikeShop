@@ -1,0 +1,14 @@
+
+<h2>Home</h2>
+<p>
+        {{controller.message}}
+   
+</p>
+  <button class="btn btn-danger" ng-click="controller.contact()">Submit Your Bike</button>   
+
+
+<ul>
+    <li ng-repeat="movie in controller.movies">
+        {{movie.title}}
+    </li>
+</ul>
